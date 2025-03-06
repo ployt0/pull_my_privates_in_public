@@ -22,6 +22,7 @@ jobs:
       with:
         repository: ployt0/land_reg_distiller
         token: ${{ secrets.pull_my_privates_pat_lr1 }}
+        ref: master
     - name: Check contents
       run: |
         ls
