@@ -20,7 +20,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
       with:
-        name: ployt0/land_reg_distiller     <-- clone https://github.com/org1/repo1
+        repository: ployt0/land_reg_distiller
     - name: Check contents
       run: |
         ls
