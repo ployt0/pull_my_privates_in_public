@@ -21,7 +21,6 @@ jobs:
     - uses: actions/checkout@v4
       with:
         name: ployt0/land_reg_distiller     <-- clone https://github.com/org1/repo1
-        ref: refs/heads/release
     - name: Check contents
       run: |
         ls
